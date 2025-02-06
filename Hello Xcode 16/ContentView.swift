@@ -12,22 +12,22 @@ struct ContentView: View {
         ZStack {
             
             Color
-                .purple
-                .opacity(0.5)
+                .red
+                .opacity(1)
                 .ignoresSafeArea()
             
             VStack {
-                Image(systemName: "figure.run")
+                Image(systemName: "figure.flexibility")
                     .imageScale(.large)
                     .foregroundStyle(.tint)
                 Text("Welcome to iOS Development")
-                    .foregroundStyle(Color.red)
+                    .foregroundStyle(Color.white)
                     .font(.largeTitle)
                     .multilineTextAlignment(.center)
                     .fontWeight(.semibold)
-                Text("First App")
+                Text("First App SWIFUI 2025")
                     .font(.title)
-                    .fontWeight(.thin)
+                    .fontWeight(.bold)
                     .padding()
                     .background(Color.blue.opacity(0.8))
                 Text("Coding is fun!")
